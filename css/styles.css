@@ -5,6 +5,7 @@ font-family: "Poppins", sans-serif;*/
   --secondary-color: #f32260;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --light-color: rgba(0, 0, 0, 0.7);
 }
 
 h1 {
@@ -32,8 +33,36 @@ h1 {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
-  color: rgba(0, 0, 0, 0.7);
+  color: var(--light-color);
 }
+.about-page {
+  padding: 160px 20px;
+  text-align: left;
+}
+.about-page h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.about-page h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #272142;
+}
+.about-page p {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--light-color);
+}
+.about-section-content {
+  margin: 30px;
+}
+
 .btn-contact {
   background: var(--secondary-color);
   border-radius: 4px;
@@ -78,7 +107,8 @@ p {
   padding: 120px 60px;
 }
 @media (max-width: 900px) {
-  h1,h2 {
+  h1,
+  h2 {
     font-size: 44px;
   }
   .project-desciption {
@@ -87,5 +117,14 @@ p {
   }
   .front-page {
     padding: 80px 20px;
+  }
+  .about-page {
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+  .about-page .btn-contact {
+    margin-bottom: 20px;
   }
 }
