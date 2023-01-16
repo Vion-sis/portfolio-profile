@@ -16,11 +16,16 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
+img {
+  width: 75%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
 
 .front-page {
   background: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .front-page p {
@@ -123,7 +128,7 @@ p {
   color: #e6e5e5;
 }
 .project-desciption {
-  padding: 120px 60px;
+  padding: 20px 60px;
 }
 @media (max-width: 900px) {
   h1,
@@ -229,4 +234,27 @@ footer .resume-section a {
 }
 footer .resume-section a:hover {
   color: black;
+}
+
+.dark {
+  background: black;
+}
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p,
+.dark .email-link a,
+.dark nav a  {
+  color: white;
+}
+.dark .footer h4,
+.dark .resume-section p {
+  color: #272142;
+}
+
+.dark .front-page {
+  background-color: rgb(50, 46, 46);
+}
+.dark .btn-contact {
+  background-color: var(--light-color);
 }
