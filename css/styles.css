@@ -164,7 +164,7 @@ nav li.active a,
 nav a:hover {
   color: var(--secondary-color);
 }
-button {
+.dark-theme {
   border: 1px solid;
   background-color: var(--secondary-color);
   box-shadow: -6px -6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, 0.1);
@@ -255,7 +255,6 @@ footer .resume-section a:hover {
 }
 .dark h1,
 .dark h2,
-.dark h3,
 .dark p,
 .dark .email-link a,
 .dark nav a,
@@ -274,7 +273,8 @@ footer .resume-section a:hover {
 .dark .btn-contact {
   background-color: var(--light-color);
 }
-.dark a:hover {
+.dark a:hover,
+.dark h3 {
   color: var(--secondary-color);
 }
 .dark i {
