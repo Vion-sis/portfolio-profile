@@ -144,3 +144,37 @@ p {
     margin-bottom: 20px;
   }
 }
+nav {
+  margin: 20px 20px 20px 0px;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--light-color);
+  transition: all 100ms ease-in-out;
+}
+nav li.active a,
+nav a:hover {
+  color: var(--secondary-color);
+}
+button {
+  border: 1px solid;
+  background-color: var(--secondary-color);
+  box-shadow: -6px -6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: 12px;
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
