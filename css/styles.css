@@ -76,6 +76,10 @@ h1 {
   font-size: 14px;
   color: var(--light-color);
 }
+.content-page p a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
 .btn-contact {
   background: var(--secondary-color);
   border-radius: 4px;
