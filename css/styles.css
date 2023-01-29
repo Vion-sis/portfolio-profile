@@ -145,8 +145,8 @@ a:hover {
   padding: 20px 60px;
 }
 .sub-naming {
- position: relative;
- left: 60px;
+  position: relative;
+  left: 60px;
 }
 
 nav ul {
@@ -254,9 +254,9 @@ footer .resume-section a:hover {
     margin-bottom: 20px;
   }
   .sub-naming {
- position: relative;
- left: 5px;
-}
+    position: relative;
+    left: 5px;
+  }
 }
 .dark {
   background: black;
@@ -269,7 +269,7 @@ footer .resume-section a:hover {
 .dark .email-link a,
 .dark nav a,
 .dark i:hover,
-.dark .btn-live:hover{
+.dark .btn-live:hover {
   color: white;
 }
 .dark .footer h4,
@@ -283,9 +283,16 @@ footer .resume-section a:hover {
 .dark .btn-contact {
   background-color: var(--secondary-color);
 }
-.dark a:hover,
-.dark h3 a{
+.dark h3 a.dark,
+.dark .btn-contact:hover {
   color: var(--secondary-color);
+}
+.dark .btn-contact:hover {
+  background-color:#312E2E;
+  border: 1px solid var(--secondary-color);
+}
+.dark a:hover {
+  color: var(--primary-color);
 }
 .dark i {
   transition: all 100ms ease-in-out;
