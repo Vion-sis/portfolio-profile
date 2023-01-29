@@ -283,12 +283,12 @@ footer .resume-section a:hover {
 .dark .btn-contact {
   background-color: var(--secondary-color);
 }
-.dark h3 a.dark,
+.dark h3 a,
 .dark .btn-contact:hover {
   color: var(--secondary-color);
 }
 .dark .btn-contact:hover {
-  background-color:#312E2E;
+  background-color: #312e2e;
   border: 1px solid var(--secondary-color);
 }
 .dark a:hover {
